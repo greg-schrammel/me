@@ -1,30 +1,23 @@
 import Head from "next/head";
-import styles from "../styles";
+import SocialMeta from "./social-meta";
 
 export default function Page({
   title,
   favicon = "/favicon.ico",
   description,
+  path,
   children,
 }) {
   return (
-    <div className="page">
+    <>
       <Head>
-        <title>{title}</title>
         <link rel="icon" href={favicon} />
-        <link href="https://rsms.me/inter/inter.css" rel="stylesheet"></link>
+        <title>{title}</title>
+        <meta name="description" content={description}></meta>
+        <meta name="author" content="Gregory M. Schrammel" />
+        <SocialMeta description={description} title={title} path={path} />
       </Head>
       {children}
-      <style jsx>{`
-        .page {
-          min-height: 100vh;
-          display: flex;
-          flex-direction: column;
-        }
-      `}</style>
-      <style jsx global>
-        {styles}
-      </style>
-    </div>
+    </>
   );
 }
