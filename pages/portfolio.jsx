@@ -26,10 +26,10 @@ export default function Portfolio() {
         <h1 className="mt-20 text-4xl font-black">Hello, I'm Gregory</h1>
         <p className="text-lg font-medium text-gray-500 max-w-xl">
           <span className="text-gray-300">
-            a nineteen, Brazilian 🇧🇷, developer.
+            a nineteen-year-old, Brazilian 🇧🇷, developer.
           </span>
-          <br />
-          I'm into designing and building great user and developer experiences
+          <br />I like coffee, and jokes, and computers, and running, and
+          psychology :)
         </p>
       </header>
 

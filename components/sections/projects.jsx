@@ -33,8 +33,7 @@ export default function Projects() {
           github="/curious-dog"
           used={["nextjs", "firebase"]}
         >
-          It's to send anonymous messages to friends, basically a copy of
-          Curious Cat
+          Send and reply to anonymous messages.
         </Project>
 
         <Project title="WhatsApp Message Bot" github="/whatsapi" used={["go"]}>

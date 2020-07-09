@@ -29,7 +29,7 @@ module.exports = {
         hero: "6rem",
       },
       boxShadow: {
-        lg: "0 3px 20px -3px rgba(0,0,0,.1)",
+        lg: "0 3px 20px -3px rgba(0,0,0,.15)",
         code: "0 3px 13px -3px black",
       },
       borderRadius: {
