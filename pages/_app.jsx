@@ -17,12 +17,10 @@ class MyApp extends App {
             href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;900&display=swap"
             rel="stylesheet"
           ></link>
-
-          <script
-            async
-            custom-element="amp-anim"
-            src="https://cdn.ampproject.org/v0/amp-anim-0.1.js"
-          ></script>
+          <link
+            href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script:wght@400&display=swap"
+            rel="stylesheet"
+          ></link>
         </Head>
         <Component {...pageProps} />
         <style jsx global>{`

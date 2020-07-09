@@ -3,6 +3,7 @@ module.exports = {
   theme: {
     fontFamily: {
       sans: ["Inter", "sans-serif"],
+      cursive: ["Nanum Pen Script"],
       mono:
         "Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif",
     },
@@ -28,11 +29,12 @@ module.exports = {
         hero: "6rem",
       },
       boxShadow: {
+        lg: "0 3px 20px -3px rgba(0,0,0,.1)",
         code: "0 3px 13px -3px black",
       },
       borderRadius: {
         xl: "20px",
-        iphone: "2rem",
+        iphone: "2.3rem",
       },
       rotate: {
         "3": "3deg",

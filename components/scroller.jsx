@@ -1,10 +1,10 @@
-const Scroller = ({ children, initScrollWidth, className }) => {
+const Scroller = ({ children, initScrollWidth }) => {
   return (
-    <div className={`${className}`}>
+    <div className="h-20">
       <div className="absolute left-0 w-screen overflow-hidden">
-        <div className="slider">
+        <div className="slider h-20">
           <div>{children}</div>
-          <div>{children}</div>
+          <div id="wtf">{children}</div>
         </div>
         <style jsx>{`
           .slider {
@@ -13,7 +13,7 @@ const Scroller = ({ children, initScrollWidth, className }) => {
           .slider > div {
             display: inline-flex;
           }
-          .slider:nth-child(2) {
+          #wtf {
             display: none;
           }
           @media screen and (max-width: ${initScrollWidth}) {
@@ -21,7 +21,7 @@ const Scroller = ({ children, initScrollWidth, className }) => {
               display: inline-flex;
               animation: slide 20s linear infinite;
             }
-            .slider:nth-child(2) {
+            #wtf {
               display: inline-flex;
             }
           }

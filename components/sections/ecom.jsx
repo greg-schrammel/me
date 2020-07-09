@@ -39,4 +39,20 @@ const Store = () => (
   </div>
 );
 
-export default Store;
+export default function EcomXP() {
+  return (
+    <div className="text-center space-y-8 py-8">
+      <h2 className="font-bold text-3xl">
+        I also have some experience building
+        <br />
+        and optimizing ecommerce sites
+        <br />
+        on shopify
+      </h2>
+      <h3 className="font-semibold text-2xl text-gray-600">
+        I'm very interested in psychology and marketing as well
+      </h3>
+      <Store />
+    </div>
+  );
+}
