@@ -39,7 +39,7 @@ export default function App() {
           The last project I worked on
         </h2>
         <p className="font-medium text-3xl mb-6 leading-none text-gray-400">
-          It's a Cloud Storage App, just like Dropbox!
+          It's a React Native cloud storage app!
         </p>
         <div
           className="h-24 hidden lg:block md:mb-24"

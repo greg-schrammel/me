@@ -13,7 +13,7 @@ export default function ContactInfo() {
         g.schrammel@icloud.com&nbsp;
         <FaExternalLinkAlt size="0.4em" />
       </a>
-      <SocialLinks twitter github />
+      <SocialLinks twitter github linkedin color="white" />
       <style jsx>{`
         a {
           cursor: pointer;
